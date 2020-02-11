@@ -1,0 +1,110 @@
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+html { 
+  background: url(main2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #ff5733;
+  border: 1px solid black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  width: 100%;
+  font-size: 2em;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+li {
+  color: red;
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  font-size: 2em;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ff5733;
+  color: white;
+}
+.sidenav {
+  width: 400px;
+  position: fixed;
+  z-index: 1;
+  top: 80px;
+  border: 1px solid black;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196f3;
+  display: block;
+}
+.sidenav h3 {
+  padding: 6px 8px 6px 16px;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+.btn {
+  background-color: #b93f8b;
+  border: 1px solid black;
+  color: white;
+  padding: 14px 20px;
+  margin-left: 33%;
+  cursor: pointer;
+  width: 100%;
+  font-size: 2em;
+}
+.btn:hover {
+  opacity: 0.8;
+}
